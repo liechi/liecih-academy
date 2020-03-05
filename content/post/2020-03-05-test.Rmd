@@ -1,16 +1,21 @@
 ---
-title: A demo for citation in blogdown
+title: A quick note of DNA seq
 author: liechi
 date: '2020-02-27'
-slug: a-demo-for-citation-in-blogdown
+slug: DNA-seq
 categories: []
 tags: []
 bibliography: [../../static/bib/library.bib]
 link-citations: true
 csl: [../../static/csl/nature.csl]
+fontsize: 6pt
+linestretch: 1.5
 ---
-I try to cite these papers[@Adamowski2015; @Leyser2018].
+Sequencing techq.  
 
-Test.
+1. Single end;
+2. Pair end (seq two sides of fragments);
+3. Matepair (Make a circle and cut to seq the joint region);
+4. 10x genomics;
+5. TELL-seq.    
 
-someone's paper[@Abley2013; @DeSmet2007]
