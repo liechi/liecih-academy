@@ -1,6 +1,6 @@
-baseurl = "https://blogdown-demo.rbind.io/"
+baseurl = ""
 languageCode = "en-us"
-title = "A minimal example website using blogdown"
+title = "Liechi's research work"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
@@ -20,17 +20,21 @@ enableEmoji = true
     url = "/about/"
     weight = 1
 [[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rbind/blogdown-demo"
+    name = "Research"
+    url = "/research/"
     weight = 2
 [[menu.main]]
-    name = "Book"
-    url = "/book/"
+    name = "Publications"
+    url = "/publications/"
     weight = 3
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    name = "Posts"
+    url = "/post/"
     weight = 4
+#[[menu.main]]
+#    name = "Liechi's personal website"
+#    url = "https://liechi.org"
+#    weight = 5
 
 [params]
     description = "A website built through Hugo and blogdown."

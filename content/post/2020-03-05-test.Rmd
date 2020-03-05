@@ -1,0 +1,12 @@
+---
+title: A demo for citation in blogdown
+author: liechi
+date: '2020-02-27'
+slug: a-demo-for-citation-in-blogdown
+categories: []
+tags: []
+bibliography: [../../static/bib/library.bib]
+link-citations: true
+csl: [../../static/csl/nature.csl]
+---
+I try to cite these papers[@Adamowski2015; @Leyser2018].
