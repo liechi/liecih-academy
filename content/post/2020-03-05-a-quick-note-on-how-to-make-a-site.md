@@ -19,4 +19,12 @@ This is a very quick note on how to make a site:
 9. Connect the netlify domain to the name.com domain;  
 10. Add secure ...  
 
+Some useful links:
+
+https://shrektan.com/post/2019/07/28/the-only-few-git-commands-that-i-use/ for git  
+http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html for starting a bookdown book   
+https://blog.travis-ci.com/2015-08-19-using-docker-on-travis-ci/ for docker and travis CI   
+https://cerebralmastication.com/2019/05/11/publishing-bookdown-to-netlify-automagically/ for bookdown and netlify
+
+
 
