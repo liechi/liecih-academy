@@ -9,8 +9,6 @@
 
     <h1 class="article-title">{{ .Title }}</h1>
 
-
-
     {{ if eq .Section "post" }}
     <span class="article-date">{{ .Date.Format "2006/01/02" }}</span>
     {{ end }}
@@ -21,14 +19,20 @@
       <a class="btn" href="{{ printf "%s" . }}">View raw source for this post</a>
       {{ end }}
     {{ end }}
-
     <div class="article-content">
       {{ .Content }}
     </div>
   </article>
-
+{{ if .PrevInSection }}
+<a href="{{.PrevInSection.Permalink}}">Previous Post</a>
+{{ end }}
+{{ if .NextInSection }}
+<a href="{{.NextInSection.Permalink}}" style="float:right;">Next Post</a>
+{{ end }}
   {{ partial "disqus.html" .}}
 
 </main>
 
 {{ partial "footer.html" . }}
+    
+
